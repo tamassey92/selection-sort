@@ -1,6 +1,10 @@
 function selectionSort(arr) {
-  // type your code here
+  arr.join();
+  arr.sort();
 }
+
+selectionSort([8, 1, 7, 5])
+console.log(arr)
 
 if (require.main === module) {
   // add your own tests in here
@@ -19,5 +23,8 @@ if (require.main === module) {
 
 module.exports = selectionSort;
 
-// Please add your pseudocode to this file
-// And a written explanation of your solution
+// My function takes in an array and outputs a new array based on lowest to highest value
+// create the new array element and set it equal to empty
+// 
+
+
